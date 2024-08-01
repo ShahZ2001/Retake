@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: blur(2px);
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}

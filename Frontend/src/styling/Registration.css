@@ -1,0 +1,73 @@
+
+
+.register{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    background-color: white;
+    
+  }
+  
+  .register span{
+    color: #adb5bd;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+  }
+  
+  #form >  input, .btn{
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    background-color: #003049;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .register .col-1{
+    width: 50%;
+    margin: auto;
+    padding: 4em 1em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .register .col-2{
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/backgroundimg.jpeg');
+    background-position: center;
+  }
+
+  .form{
+    width: 90vw;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .register .col-2 img{
+      display: initial;
+    }
+}
